@@ -1,0 +1,234 @@
+@media screen and (max-width: 2000px) {
+  .container {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .header .nav .logo {
+    width: 20%;
+    padding: 5px 0;
+  }
+
+  .header .nav .logo img {
+    width: 200px;
+  }
+
+  .header .nav ul {
+    width: 50%;
+    padding: 20px 0;
+  }
+  .header .nav ul li {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header .nav .logo {
+    width: 20%;
+    padding: 5px 0;
+  }
+
+  .header .nav .logo img {
+    width: 200px;
+  }
+  .header .nav ul {
+    display: none;
+  }
+
+  .header .nav > img {
+    display: block;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    height: 50px;
+    margin: 15px 0;
+  }
+  .header .welcome {
+    width: 80%;
+  }
+  .header .welcome p {
+    font-size: 18px;
+    margin: 30px;
+    opacity: 0.7;
+  }
+  .header .welcome {
+    transform: translate(-50%, -50%);
+  }
+
+  .header .welcome h1 {
+    font-size: 60px;
+  }
+  .header .welcome button {
+    padding: 16px 14px;
+    font-size: 15px;
+  }
+
+  .who .container {
+    display: block;
+  }
+  .who .img {
+    width: 60%;
+    margin: auto;
+  }
+  .who .img img {
+    width: 100%;
+  }
+
+  .who .info {
+    width: 80%;
+    margin: auto;
+  }
+
+  .who .info .icon {
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    transition: 0.2s;
+    color: #fff;
+  }
+  .who .info .icon:hover {
+    background-color: #555;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 2px 2px 10px rgb(142, 233, 213),
+      -2px -2px 10px rgb(142, 233, 213);
+  }
+
+  .who .info .icon img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .location .container {
+    display: block;
+  }
+  .location .container .info {
+    width: 100%;
+  }
+  .location .container .info p {
+    margin-bottom: 35px;
+  }
+  .location .container .img {
+    width: 80%;
+    margin: auto;
+  }
+  .links .container {
+    display: block;
+    justify-content: space-between;
+  }
+
+  .links .container .cont {
+    width: 85%;
+    margin: 30px auto;
+    padding: 25px 10px;
+    border: 2px solid #999;
+  }
+  .links .container .cont h3 {
+    text-align: center;
+  }
+  .contact .container {
+    display: block;
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  .contact .container .info {
+    width: 100%;
+    padding: 50px;
+  }
+  .contact .container .info .icon {
+    width: 100%;
+    margin: auto;
+    padding: 0px 20px 16px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  .contact .container .info .icon:hover {
+    background-color: #444;
+    color: #fff;
+    box-shadow: 2px 2px 10px rgb(142, 233, 213),
+      -2px -2px 10px rgb(142, 233, 213);
+  }
+  .contact .container .info .icon img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 30px;
+  }
+  .contact .container .map {
+    width: 100%;
+    padding: 25px 0;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header .nav .logo {
+    padding-top: 12px;
+  }
+  .header .nav .logo img {
+    width: 150px;
+  }
+  .header .nav > img {
+    width: 40px;
+    height: 40px;
+  }
+  .header .welcome p {
+    font-size: 16px;
+  }
+  .header .welcome h1 {
+    font-size: 40px;
+  }
+  .header .welcome button {
+    padding: 14px 10px;
+    font-size: 14px;
+  }
+  .who .img {
+    width: 100%;
+  }
+  .who .img img {
+    width: 100%;
+  }
+
+  .who .info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .location .container .info {
+    width: 100%;
+  }
+  .location .container .img {
+    width: 100%;
+  }
+  .location .container .img img {
+    width: 100%;
+  }
+  .bank .main {
+    display: block;
+  }
+  .bank .main .cont {
+    width: 100%;
+    border: 2px solid #f1f1f1;
+    margin-bottom: 25px;
+    padding: 15px;
+  }
+  .footer > img {
+    width: 200px;
+    padding: 25px;
+  }
+  .footer > p {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+
+  .footer .icon img {
+    width: 30px;
+    height: 30px;
+  }
+}
